@@ -2,7 +2,7 @@ var AutoTyping=function(e){var t={};function r(n){if(t[n])return t[n].exports;va
 
 
 const exampleText = ['Web Developer', 'Web Designer'];
-const exampleTyping = new AutoTyping('#text', exampleText, {
+const exampleTyping = new AutoTyping('.text', exampleText, {
     typeSpeed: 100,
     deleteSpeed: 100,
     waitBeforeDelete: 2000,
